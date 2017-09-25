@@ -8,14 +8,14 @@ levels[3] = [2,3,7,24,34,45,54,57,60,82,83,91,99,108,109,110,113,117,122,135,136
 levels[4] = [41,47,55,56,70,71,73,77,85,86,87,88,100,101,102,103,104,107,116,118,119,120,123,124,125,126,134,140,143,144,145,154,164,165,168,177,181,217,239,253,254];
 
 var maxdate = Date.now(); //don't change this
-var mindate = (1503633600000); //(1502769600000); //set to show epoch milliseconds of the start date
+var mindate = new Date("August 24, 2017").valueOf();//(1503633600000); //(1502769600000); //set to show epoch milliseconds of the start date
 var mindateISO = new Date(mindate).toISOString();
 
 var partnerLogo = 'https://mapillarydiscourse.s3-eu-west-1.amazonaws.com/optimized/1X/b88062c9c9aa64867b2287b3f6ed48d44415b697_1_690x393.png';
 var partnerLink = 'www.bikeottawa.ca'
 
 var challengeTitle = 'Ottawa Challenge'; //text in the slider
-var challengeDate = 'August 25 - September 30th, 2017'
+var challengeDate = 'August 24th - September 30th, 2017'
 var docTitle = 'Complete the Map: Ottawa - Mapillary'; //text next to favicon on browser window
 
 var challengeLng = -75.6972; //center of the map
